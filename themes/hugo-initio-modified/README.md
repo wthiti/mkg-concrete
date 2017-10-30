@@ -1,4 +1,4 @@
-# Initio theme for Hugo
+# Modification from Initio theme for Hugo
 
 [Hugo-Initio](https://miguelsimoni.github.io/hugo-initio-site/) is ported from the [Initio](http://www.gettemplate.com/info/initio/) template by [GetTemplate.com](http://www.gettemplate.com/) for [Hugo](https://gohugo.io/).
 

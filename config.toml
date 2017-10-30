@@ -1,13 +1,17 @@
-baseURL = "http://example.org/"
+baseURL = "www.example.com"
 languageCode = "th-th"
-title = "Initio - Free, multipurpose html5 template by GetTemplate"
-theme = "hugo-initio"
+title = "MKG-Concrete"
+theme = "hugo-initio-modified"
 publishDir = "docs"
 
 [params]
-    name = "Anthony Russel"
-    description = "A mystery person"
-    email = "anthony.russel42@example.com"
+    author = "Thiti Watanasrimongkol"
+    name = "บริษัท มงคลกิจ คอนกรีต จำกัด"
+    subHeader = "ดำเนินการตั้งแต่ พ.ศ. 2537"
+    certificationDesc = "มอก. 396-2549"
+    certificationImage = ""
+    description = ""
+    email = ""
     phone = "+234 23 9873237"
     address = "234 Hidden Pond Road, Ashland City, TN 37015"
     year = 2017
