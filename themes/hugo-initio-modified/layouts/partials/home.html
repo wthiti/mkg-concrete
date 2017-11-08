@@ -10,12 +10,12 @@
             {{ partial "services.html" . }}
         {{ end }}
 
-        {{ if .Site.Params.showRecentWorks }}
-            {{ partial "recentworks.html" . }}
+				{{ if .Site.Params.showDownload }}
+            {{ partial "download.html" . }}
         {{ end }}
 
-        {{ if .Site.Params.showDownload }}
-            {{ partial "download.html" . }}
+        {{ if .Site.Params.showRecentWorks }}
+            {{ partial "recentworks.html" . }}
         {{ end }}
 
         {{ if .Site.Params.showClients }}

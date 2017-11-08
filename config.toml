@@ -1,4 +1,4 @@
-baseURL = "www.example.com"
+baseURL = "www.example.com/"
 languageCode = "th-th"
 title = "MKG-Concrete"
 theme = "hugo-initio-modified"

@@ -34,4 +34,10 @@ jQuery(document).ready(function($) {
 	// 	 sticky_navigation();
 	 	 initio_parallax_animation();
 	});
+	$('.owl-carousel').owlCarousel({
+		margin:10,
+		loop: true,
+		autoplay: true,
+		autoplayTimeout: 1500 
+	});
 });
