@@ -1,6 +1,6 @@
 baseURL = "www.example.com/"
 languageCode = "th-th"
-title = "MKG-Concrete"
+title = "บริษัท มงคลกิจ คอนกรีต จำกัด"
 theme = "hugo-initio-modified"
 publishDir = "docs"
 

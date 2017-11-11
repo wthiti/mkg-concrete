@@ -8,14 +8,12 @@
 
         {{ if .Site.Params.showServices }}
             {{ partial "services.html" . }}
-        {{ end }}
-
-				{{ if .Site.Params.showDownload }}
-            {{ partial "download.html" . }}
+						{{ partial "services_download.html" . }}
         {{ end }}
 
         {{ if .Site.Params.showRecentWorks }}
             {{ partial "recentworks.html" . }}
+						{{ partial "works_download.html" . }}
         {{ end }}
 
         {{ if .Site.Params.showClients }}
