@@ -7,19 +7,15 @@
 		<div class="row topspace">
 
 			<!-- Sidebar -->
-			<aside class="col-sm-4 sidebar sidebar-right">
-
-				<div class="nav text-right nav-side">
-					<li class="active"><a href="#">{{ .Title }}</a></li>
-				</div>
-
-			</aside>
+			<div class="col-sm-4 text-right">
+                <h4 id="article-title">{{ .Title }}</h4>
+			</div>
 			<!-- /Sidebar -->
 
 			<!-- Article main content -->
-			<article class="col-sm-8 maincontent">
+			<div class="col-sm-8 maincontent">
                 {{ .Content }}
-			</article>
+			</div>
 			<!-- /Article -->
 
 

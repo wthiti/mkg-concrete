@@ -1,5 +1,6 @@
 +++
-title = "Wordpress integration"
+title = "ทีมงานสนาม"
+weight = 2
 +++
 
-I don't think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn't eat for three weeks. i once heard a wise man say there are no perfect men.
+ทีมงานที่มีความรู้ ความชำนาญสูง พร้อมที่จะแนะนำและปฏิบัติการได้อย่างมีประสิทธิภาพควบคุมดูแลงาน อย่างใกล้ชิดในทุกขั้นตอน เพื่อสร้างความมั่นใจกับลูกค้าทุกราย

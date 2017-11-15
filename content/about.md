@@ -1,18 +1,16 @@
 +++
 menu = "main"
-title = "About"
+title = "เกี่ยวกับบริษัท"
 type = "about"
 weight = 10
 +++
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, consequuntur eius repellendus eos aliquid molestiae ea laborum ex quibusdam laudantium voluptates placeat consectetur quam aliquam beatae soluta accusantium iusto nihil nesciunt unde veniam magnam repudiandae sapiente.
+### บริษัท มงคลกิจ คอนกรีต จำกัด  
 
-![about](../images/mac.jpg)
+---
 
-### Necessitatibus
+บริษัท มงคลกิจ คอนกรีต จำกัด ก่อตั้งขึ้นในปี พ.ศ.2537 โดยเริ่มดำเนินธุรกิจด้านการผลิตเสาเข็มคอนกรีตอัดแรง จากบริษัทเล็กๆ จนกระทั่งปัจจุบัน ซึ่งถือได้ว่าเป็นบริษัทชั้นนำในการดำเนินธุรกิจเสาเข็มคอนกรีตอัดแรง ด้วยอุดมการณ์และความมุ่งมั่นที่พร้อมจะเป็นส่วนหนึ่งในการช่วยผลักดันความเจริญก้าวหน้าด้านอุตสาหกรรมให้กับประเทศ
 
-Velit, odit, eius, libero unde impedit quaerat dolorem assumenda alias consequuntur optio quae maiores ratione tempore sit aliquid architecto eligendi pariatur ab soluta doloremque dicta aspernatur labore quibusdam dolore corrupti quod inventore. Maiores, repellat, consequuntur eius repellendus eos aliquid molestiae ea laborum ex quibusdam laudantium voluptates placeat consectetur quam aliquam!
+ตลอดระยะเวลาที่ผ่านมา ทางบริษัทฯ ได้พัฒนาคุณภาพของผลิตภัณฑ์ โดยนำเทคโนโลยีใหม่ๆเข้ามาเป็นส่วนหนึ่งของการผลิต และปรับปรุงคุณภาพให้มีประสิทธิภาพมากขึ้น อีกทั้งให้ความสำคัญในกระบวนการผลิตทุกขั้นตอน ตั้งแต่เลือกสรรใช้วัตถุดิบที่มีคุณภาพ แรงงานที่มีทักษะ ควบคุมทั้งกระบวนการโดยวิศวกรผู้มีความชำนาญ จนได้รับเครื่องหมายผลิตภัณฑ์อุตสาหกรรม มอก.396-2549 จากสำนักงานมาตรฐานผลิตภัณฑ์อุตสาหกรรม กระทรวงอุตสาหกรรม โดยตระหนักถึงสภาพแวดล้อม และลดการใช้ทรัพยากรป่าไม้ ซึ่งเคยเป็นปัจจัยหลักในการก่อสร้าง บริษัทฯมีความมั่นใจว่าการพัฒนาของเราจะเติบโต ควบคู่ไปกับความเจริญก้าวหน้าทางเศรษฐกิจ และอนุรักษ์ทรัพยากรของประเทศต่อไป
 
-### Fugit, laboriosam
-
-Eum, quasi, est, vitae, ipsam nobis consectetur ea aspernatur ad eos voluptatibus fugiat nisi perferendis impedit. Quam, nulla, excepturi, voluptate minus illo tenetur sint ab in culpa cumque impedit quibusdam. Saepe, molestias quia voluptatem natus velit fugiat omnis rem eos sapiente quasi quaerat aspernatur quisquam deleniti accusantium laboriosam odio id?
+ปัจจุบัน บริษัทฯเป็นผู้ผลิตและจำหน่ายเสาเข็มคอนกรีตอัดแรง รูปตัวไอ และรูปสี่เหลี่ยม โดยมีการดำเนินธุรกิจในการนำเสนอสินค้าตรงต่อองค์กรขนาดกลาง และขนาดใหญ่เป็นจำนวนมาก

@@ -1,102 +1,93 @@
 [
     {
-        "id": 0,
-        "name": "Sample title - big data solutions",
-        "image": "images/s1.jpg",
-        "url": "#",
-        "items": [
-            {
-                "name": "Web design",
-                "url": "#"
-            },
-            {
-                "name": "Wordpress",
-                "url": "#"
-            },
-            {
-                "name": "Logotype",
-                "url": "#"
-            }
-        ]
-    },
-    {
         "id": 1,
-        "name": "Pure ipsum - development services for people",
-        "image": "images/s1.jpg",
+        "name": "โรงงานกระทิงแดง อำเภอบ้านสร้าง จังหวัดปราจีนบุรี ",
+        "image": "images/p1.jpg",
         "url": "#",
-        "items": [
-            {
-                "name": "Web design",
-                "url": "#"
-            },
-            {
-                "name": "Wordpress",
-                "url": "#"
-            }
-        ]
+        "items": []
     },
     {
         "id": 2,
-        "name": "Lorem studios - interior and patio design",
-        "image": "images/s1.jpg",
+        "name": "โรงงานผลิตเบาะรถยนต์บริษัท บริษัท อินเตอร์ไฮด์ จำกัด (มหาชน) อำเภอเมืองสมุทรปราการ จังหวัดสมุทรปราการ",
+        "image": "images/p2.jpg",
         "url": "#",
-        "items": [
-            {
-                "name": "Web design",
-                "url": "#"
-            },
-            {
-                "name": "Logotype",
-                "url": "#"
-            }
-        ]
+        "items": []
     },
     {
         "id": 3,
-        "name": "Pure ipsum - development services for people",
-        "image": "images/s1.jpg",
+        "name": "โรงงานผลิตกระดาษ บริษัท อินเตอร์ แปซิฟิค เปเปอร์ จำกัด อำเภอบ้านสร้าง จังหวัดปราจีนบุรี",
+        "image": "images/p3.jpg",
         "url": "#",
-        "items": [
-            {
-                "name": "Web design",
-                "url": "#"
-            },
-            {
-                "name": "Wordpress",
-                "url": "#"
-            }
-        ]
+        "items": []
     },
     {
         "id": 4,
-        "name": "Lorem studios - interior and patio design",
-        "image": "images/s1.jpg",
+        "name": "ปิติห้องเย็น อำเภอวังน้อย จังหวัดพระนครศรีอยุธยา",
+        "image": "images/p4.jpg",
         "url": "#",
-        "items": [
-            {
-                "name": "Web design",
-                "url": "#"
-            },
-            {
-                "name": "Logotype",
-                "url": "#"
-            }
-        ]
+        "items": []
     },
     {
         "id": 5,
-        "name": "Lorem studios - interior and patio design",
-        "image": "images/s1.jpg",
+        "name": "โกดัง บริษัท เหลียงฮวกไรซ์ อินเตอร์เทรด จำกัด อำเภอลาดบัวหลวง จังหวัดพระนครศรีอยุธยา",
+        "image": "images/p5.jpg",
         "url": "#",
-        "items": [
-            {
-                "name": "Web design",
-                "url": "#"
-            },
-            {
-                "name": "Logotype",
-                "url": "#"
-            }
-        ]
+        "items": []
+    },
+    {
+        "id": 6,
+        "name": "โครงการ Winning residence เทอดไท-กัลปพฤกษ์",
+        "image": "images/p6.jpg",
+        "url": "#",
+        "items": []
+    },
+    {
+        "id": 7,
+        "name": "โชว์รูมฮอนด้า คู้บอน",
+        "image": "images/p7.jpg",
+        "url": "#",
+        "items": []
+    },
+    {
+        "id": 8,
+        "name": "หอภาพยนตร์ ศาลายา",
+        "image": "images/p8.jpg",
+        "url": "#",
+        "items": []
+    },
+    {
+        "id": 9,
+        "name": "หมู่บ้านนาราสิริ พระราม 2",
+        "image": "images/p9.jpg",
+        "url": "#",
+        "items": []
+    },
+    {
+        "id": 10,
+        "name": "ปั้มน้ำมัน ปตท. คลอง 7",
+        "image": "images/p10.jpg",
+        "url": "#",
+        "items": []
+    },
+    {
+        "id": 11,
+        "name": "คณะวิศวกรรมศาสคร์ มหาวิทยาลัยศรีนครินวิโรฒ (องครักษ์)",
+        "image": "images/p11.jpg",
+        "url": "#",
+        "items": []
+    },
+    {
+        "id": 12,
+        "name": "โรงเรียนสาธิตมหาวิทยาลัยศรีนครินวิโรฒ แผนกประถม (องครักษ์)",
+        "image": "images/p12.jpg",
+        "url": "#",
+        "items": []
+    },
+    {
+        "id": 13,
+        "name": "โรงงาน บริษัท ไทยแทนฟู้ดส์ อินเตอร์เนชั่นแนล จํากัด (นิคมราชบุรี)",
+        "image": "images/p13.jpg",
+        "url": "#",
+        "items": []
     }
 ]

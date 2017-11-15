@@ -1,5 +1,6 @@
 +++
-title = "Application development"
+title = "ทีมงานขนส่ง"
+weight = 3
 +++
 
-I don't think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn't eat for three weeks. i once heard a wise man say there are no perfect men.
+เราเชื่อมั่นว่านอกจากคุณภาพของสินค้าและผลิตภัณฑ์ที่ได้มาตรฐานของบริษัทฯแล้ว การขนส่งผลิตภัณฑ์ที่ถูกวิธีจนถึงมือลูกค้าตรงตามเวลาเป็นสิ่งสำคัญที่บริษัทฯใช้ในการดำเนินงาน รถขนส่งพร้อมอุปกรณ์ขนย้ายที่จะอำนวยความสะดวกให้กับลูกค้า พร้อมด้วยการเอาใจใส่ดูแลในทุกขั้นตอนของเรา

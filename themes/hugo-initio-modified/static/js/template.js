@@ -38,6 +38,7 @@ jQuery(document).ready(function($) {
 		margin:10,
 		loop: true,
 		autoplay: true,
-		autoplayTimeout: 1500 
+		autoplayTimeout: 1500,
+		autoWidth: true
 	});
 });

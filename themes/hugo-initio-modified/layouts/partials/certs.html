@@ -1,0 +1,10 @@
+<div class="row section clients topspace">
+    <h2 class="section-title"><span>{{ .Site.Params.certTitle }}</span></h2>
+    <div class="row">
+      {{ range .Site.Data.certs }}
+        <div class="col-xs-3 col-sm-3 col-md-3 text-left">
+          <img src="{{ .Site.BaseURL }}{{ .image }}" alt="{{ .name }}" />
+        </div>
+      {{ end }}
+    </div>
+</div> <!-- /section -->

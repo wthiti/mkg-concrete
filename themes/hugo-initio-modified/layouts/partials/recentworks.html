@@ -1,12 +1,17 @@
 <div class="row section recentworks topspace">
 
-    <h2 class="section-title"><span>Recent Works</span></h2>
+    {{ range .Site.Menus.main }}
+      {{ if (eq .URL "/work/")}}
+        <h2 class="section-title"><span>{{ .Name }}</span></h2>
+      {{ end }}
+    {{ end }}
 
     <div class="owl-carousel">
 
         {{ range $index, $area := .Site.Data.recentworks }}
-            <div>
+            <div class="text-center">
               <img src="{{ .Site.BaseURL }}{{ .image }}"/>
+              <span>{{ $area.name }}</span>
             </div>
         {{ end }}
 
