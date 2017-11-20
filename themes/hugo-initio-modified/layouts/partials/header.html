@@ -27,7 +27,7 @@
 	<!-- Icons -->
 	<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" />
 	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Trirong" rel="stylesheet" />	
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Trirong" rel="stylesheet" />
 	<!-- Carousel -->
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/owl.carousel.min.css" />
 	<!-- Custom styles -->
@@ -47,13 +47,18 @@
 <header id="header">
 	<div id="header-box" class="header-box">
 		<div class="container">
-			<div class="text-center">
-				<img src="{{ .Site.BaseURL }}images/logo.png" alt="{{ .Site.Params.name }}" />
+			<div class="row">
+				<div class="col-xs-12 col-sm-3 col-md-3 text-left">
+					<img src="{{ .Site.BaseURL }}images/logo.png" alt="{{ .Site.Params.name }}" />
+				</div>
+				<div class="col-xs-12 col-sm-9 col-md-9 menu-margin">
+					{{ partial "menu.html" . }}
+				</div>
 			</div>
 		</div>
 	</div>
 	<div id="head" class="parallax" parallax-speed="2" ></div>
 
-  {{ partial "menu.html" . }}
+
 
 </header>

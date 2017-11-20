@@ -5,30 +5,27 @@
 				<h3 class="widget-title">{{ .Site.Params.contactTitle }}</h3>
 				<div class="widget-body">
 					<h4 class="widget-title">{{ .Site.Params.mainDesc }}</h4>
-					<p>{{ .Site.Params.mainPhone }}<br />
+					<p>{{ .Site.Params.mainAddress }}<br /><br />
+						{{ .Site.Params.mainPhone }}<br />
 						{{ .Site.Params.mainFax }}<br />
-						<a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a><br>
-						{{ .Site.Params.mainAddress }}
+						<a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
 					</p>
 					<h4 class="widget-title">{{ .Site.Params.factoryDesc }}</h4>
-					<p>{{ .Site.Params.factoryPhone }}<br />
+					<p>{{ .Site.Params.factoryAddress }}<br /><br />
+						{{ .Site.Params.factoryPhone }}<br />
 						{{ .Site.Params.factoryFax }}<br />
-						<a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a><br>
-						{{ .Site.Params.factoryAddress }}
+						<a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
 					</p>
 				</div>
 			</div>
 
 			<div class="col-md-6 widget">
-				<h3 class="widget-title">{{ .Site.Params.followTitle }}</h3>
 				<div class="widget-body">
-					<p class="follow-me-icons">
-                        {{ range .Site.Params.social }}
-                            {{ if .footer }}
-                                <a href="{{ .url }}" target="_blank"><i class="fa {{ .icon }} fa-2"></i></a>
-                            {{ end }}
-                        {{ end }}
-					</p>
+				{{ range .Site.Data.certs }}
+	        <p>
+	          <img src="{{ .Site.BaseURL }}{{ .image }}" alt="{{ .name }}" />
+	        </p>
+	      {{ end }}
 				</div>
 			</div>
 
@@ -38,25 +35,15 @@
 
 <footer id="underfooter">
 	<div class="container">
-		<div class="row">
 
-			<div class="col-md-6 widget">
 				<div class="widget-body">
-					<p>{{ .Site.Params.mainAddress }}</p>
-				</div>
-			</div>
-
-			<div class="col-md-6 widget">
-				<div class="widget-body">
-					<p class="text-right">
+					<p class="text-left">
 						Copyright &copy; {{ .Site.Params.year }}, {{ .Site.Params.name }}<br>
 						Design: <a href="http://www.gettemplate.com" rel="designer">Initio by GetTemplate</a> -
                         Powered by: <a href="https://gohugo.io/" rel="poweredby">Hugo</a>
                     </p>
 				</div>
-			</div>
 
-		</div> <!-- /row of widgets -->
 	</div>
 </footer>
 

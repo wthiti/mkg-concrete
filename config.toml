@@ -40,7 +40,7 @@ publishDir = "docs"
     showServices = true
     showRecentWorks = true
     showDownload = true
-    showCerts = true
+    showCerts = false 
 
 [[menu.main]]
     name = "หน้าแรก"
