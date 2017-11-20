@@ -1,11 +1,16 @@
 <div class="row section featured topspace">
-    <h2 class="section-title"><span>ทีมงานคุณภาพ</span></h2>
+    <h2 class="section-title"><span>ผลิตภัณฑ์</span></h2>
     <div class="row">
-        {{ range where .Data.Pages "Section" "service" }}
-            <div class="col-sm-12 col-md-4">
-                <h3 class="text-center">{{ .Title }}</h3>
-                <p>{{ .Content }}</p>
-                <p></p>
+      {{ $BaseURL := .Site.BaseURL }}
+        {{ range .Site.Data.products }}
+            <div class="col-sm-12 col-md-6">
+                <div class="product-section text-center">
+                  <h3>{{ .title }}</h3>
+                  <div>
+                    <img class="product-thumbnail-image" src="{{ $BaseURL }}images/{{ .front_image }}"/>
+                  </div>
+                  <a class="btn btn-primary btn-lg" href="/product">ดูเพิ่มเติม</a>
+                </div>
             </div>
         {{ end }}
     </div>
