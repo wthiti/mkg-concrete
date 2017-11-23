@@ -21,9 +21,10 @@
 
 			<div class="col-md-6 widget">
 				<div class="widget-body">
+				{{ $baseURL := .Site.BaseURL }}
 				{{ range .Site.Data.certs }}
 	        <p>
-	          <img src="{{ .Site.BaseURL }}{{ .image }}" alt="{{ .name }}" />
+	          <img src="{{ $baseURL }}{{ .image }}" alt="{{ .name }}" />
 	        </p>
 	      {{ end }}
 				</div>

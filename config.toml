@@ -40,15 +40,35 @@ publishDir = "docs"
     showServices = true
     showRecentWorks = true
     showDownload = true
-    showCerts = false 
+    showCerts = false
 
 [[menu.main]]
-    name = "หน้าแรก"
-    url = "/"
-    weight = 1
+    name = "เกี่ยวกับบริษัท"
+    url = "/about"
+    weight = 2
+[[menu.main]]
+    name = "ผลิตภัณฑ์"
+    identifier = "product"
+    url = "/product"
+    weight = 6
+[[menu.main]]
+    name = "เสาเข็มไอ"
+    parent = "product"
+    url = "/product/#Stake-I"
+    weight = 100
+[[menu.main]]
+    name = "เสาเข็มรูปสี่เหลี่ยม"
+    parent = "product"
+    url = "/product/#Stake-Square"
+    weight = 101
+[[menu.main]]
+    name = "ดาวน์โหลด"
+    parent = "product"
+    url = "/product/#"
+    weight = 102
 [[menu.main]]
     name = "ติดต่อ"
-    url = "/#footer"
+    url = "/contact"
     weight = 20
 
 [params.disqus]

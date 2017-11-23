@@ -1,0 +1,63 @@
+{{ partial "header.html" . }}
+
+<main id="main">
+
+	<div class="container">
+
+		<h2 class="section-title"><span>{{ .Title }}</span></h2>
+
+		<p>
+			{{ .Content }}
+		</p>
+		<div class="row">
+			<div class="col-sm-8">
+				<h4 class="article-title">แบบฟอร์มติดต่อ</h4>
+				<form class="contact-form" method="post" action="https://formspree.io/golf.thiti@gmail.com">
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="form-group">
+								<label for="name">ชื่อ</label>
+								<input type="text" class="form-control" name="name" id="name" required />
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="form-group">
+								<label for="email">อีเมลล์</label>
+								<input type="text" class="form-control" name="email" id="email" required  />
+							</div>
+						</div>
+						<div class="col-sm-12">
+							<div class="form-group">
+								<label for="message">ข้อความ</label>
+								<textarea id="message" class="form-control" name="message" required></textarea>
+							</div>
+						</div>
+						<div class="col-sm-12 text-center">
+							<button type="submit" class="btn btn-primary"><i class="fa fa-envelope-o"></i> ส่งข้อความ</button>
+						</div>
+					</div>
+				</form>
+
+			</div>
+			<div class="col-sm-4 contact-address">
+				<h4 class="article-title">ติดต่อเรา</h4><br />
+				<h5 class="article-title">{{ .Site.Params.mainDesc }}</h4>
+				<p>{{ .Site.Params.mainAddress }}<br /><br />
+					{{ .Site.Params.mainPhone }}<br />
+					{{ .Site.Params.mainFax }}<br />
+					<a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+				</p>
+				<h5 class="article-title">{{ .Site.Params.factoryDesc }}</h4>
+				<p>{{ .Site.Params.factoryAddress }}<br /><br />
+					{{ .Site.Params.factoryPhone }}<br />
+					{{ .Site.Params.factoryFax }}<br />
+					<a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+				</p>
+			</div>
+		</div>
+
+	</div>	<!-- /container -->
+
+</main>
+
+{{ partial "footer.html" . }}

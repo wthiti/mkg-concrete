@@ -1,5 +1,4 @@
 +++
-menu = "main"
 title = "ผลิตภัณฑ์"
 type = "product"
 weight = 8

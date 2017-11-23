@@ -2,11 +2,13 @@
   {
     "id":1,
     "title": "เสาเข็มไอ",
-    "front_image":"Product_I.jpg"
+    "front_image":"Product_I.jpg",
+    "url_id":"stake-i"
   },
   {
     "id":2,
     "title": "เสาเข็มรูปสี่เหลี่ยม",
-    "front_image":"Product_Square.jpg"
+    "front_image":"Product_Square.jpg",
+    "url_id":"stake-square"
   }
 ]

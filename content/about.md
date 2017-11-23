@@ -1,8 +1,7 @@
 +++
-menu = "main"
 title = "เกี่ยวกับบริษัท"
 type = "about"
-weight = 7 
+weight = 7
 +++
 
 ### บริษัท มงคลกิจ คอนกรีต จำกัด  

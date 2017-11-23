@@ -532,9 +532,11 @@ img {
   color: #000000;
   background: none;
 }
-#article-title {
+#article-title,
+.article-title {
   color: #008cb2;
 }
+
 /*********************************************************************
 
 
@@ -548,15 +550,15 @@ img {
   width: 100%;
   overflow: hidden;
   margin: 0px 0 25px;
-  text-align: center;
+  text-align: left;
   font-weight: 300;
   text-transform: uppercase;
   font-size: 36px;
   font-size: 2.25rem;
   letter-spacing: 1px;
-  background-color: #008cb2;
-  color: #ffffff;
+  color: #000000;
   padding: 10px 5px;
+  border-bottom: 4px solid #008cb2;
 }
 .section-title a,
 .entry-title a {
@@ -576,8 +578,8 @@ img {
   height: 4px;
   top: .53em;
   width: 100%;
-  border-bottom: 1px solid #e89342;
-  border-top: 1px solid #e89342;
+  border-bottom: 1px solid #ffffff;
+  border-top: 1px solid #ffffff;
 }
 .section-title span:before,
 .entry-title span:before {
