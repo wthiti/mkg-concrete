@@ -7,11 +7,14 @@
                 <div class="product-section text-center">
                   <h3>{{ .title }}</h3>
                   <div>
-                    <img class="product-thumbnail-image" src="{{ $BaseURL }}images/{{ .front_image }}"/>
+                    <a href="/product/#{{ .url_id }}"><img class="product-thumbnail-image" src="{{ $BaseURL }}images/{{ .front_image }}"/></a>
                   </div>
-                  <a class="btn btn-primary btn-lg" href="/product/#{{ .url_id }}">ดูเพิ่มเติม</a>
                 </div>
+                <br />
             </div>
         {{ end }}
+    </div>
+    <div class="text-right">
+      <a class="btn btn-primary btn-lg more-detail-btn" href="/product/">ดูรายละเอียดเพิ่มเติม</a>
     </div>
 </div> <!-- / section -->

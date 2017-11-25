@@ -1,7 +1,10 @@
 <div class="row section topspace">
     <div class="col-md-12">
-        <p class="text-justify text-muted">
+        <div class="text-justify">
           {{ .Site.Params.subHeader | safeHTML }}
-        </p>
+        </div>
+        <blockquote>
+          {{ .Site.Params.subHeaderQuote | safeHTML }}
+        </blockquote>
     </div>
 </div> <!-- / section -->
