@@ -11,7 +11,7 @@
 		</p>
 		<div class="row">
 			<div class="col-sm-8">
-				<h4 class="article-title">แบบฟอร์มติดต่อ</h4>
+				<h4 class="article-title">ติดต่อสอบถาม</h4>
 				<form class="contact-form" method="post" action="https://formspree.io/{{ .Site.Params.email }}">
 					<div class="row">
 						<div class="col-sm-6">
@@ -42,13 +42,13 @@
 			<div class="col-sm-4 contact-address">
 				<h4 class="article-title">ติดต่อเรา</h4><br />
 				<h5 class="article-title">{{ .Site.Params.mainDesc }}</h4>
-				<p>{{ .Site.Params.mainAddress }}<br /><br />
+				<p class="no-indent">{{ .Site.Params.mainAddress }}<br /><br />
 					{{ .Site.Params.mainPhone }}<br />
 					{{ .Site.Params.mainFax }}<br />
 					<a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
 				</p>
 				<h5 class="article-title">{{ .Site.Params.factoryDesc }}</h4>
-				<p>{{ .Site.Params.factoryAddress }}<br /><br />
+				<p class="no-indent">{{ .Site.Params.factoryAddress }}<br /><br />
 					{{ .Site.Params.factoryPhone }}<br />
 					{{ .Site.Params.factoryFax }}<br />
 					<a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>

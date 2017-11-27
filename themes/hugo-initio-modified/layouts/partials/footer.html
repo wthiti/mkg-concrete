@@ -5,28 +5,23 @@
 				<h3 class="widget-title">{{ .Site.Params.contactTitle }}</h3>
 				<div class="widget-body">
 					<h4 class="widget-title">{{ .Site.Params.mainDesc }}</h4>
-					<p>{{ .Site.Params.mainAddress }}<br /><br />
+					<p class="no-indent">{{ .Site.Params.mainAddress }}<br /><br />
 						{{ .Site.Params.mainPhone }}<br />
 						{{ .Site.Params.mainFax }}<br />
 						<a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
 					</p>
-					<h4 class="widget-title">{{ .Site.Params.factoryDesc }}</h4>
-					<p>{{ .Site.Params.factoryAddress }}<br /><br />
-						{{ .Site.Params.factoryPhone }}<br />
-						{{ .Site.Params.factoryFax }}<br />
-						<a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
-					</p>
+
 				</div>
 			</div>
 
 			<div class="col-md-6 widget">
 				<div class="widget-body">
-				{{ $baseURL := .Site.BaseURL }}
-				{{ range .Site.Data.certs }}
-	        <p>
-	          <img src="{{ $baseURL }}{{ .image }}" alt="{{ .name }}" />
-	        </p>
-	      {{ end }}
+					<h4 class="widget-title">{{ .Site.Params.factoryDesc }}</h4>
+					<p class="no-indent">{{ .Site.Params.factoryAddress }}<br /><br />
+						{{ .Site.Params.factoryPhone }}<br />
+						{{ .Site.Params.factoryFax }}<br />
+						<a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+					</p>{{ $baseURL := .Site.BaseURL }}
 				</div>
 			</div>
 
@@ -38,7 +33,7 @@
 	<div class="container">
 
 				<div class="widget-body">
-					<p class="text-left">
+					<p class="text-left no-indent">
 						Copyright &copy; {{ .Site.Params.year }}, {{ .Site.Params.name }}<br>
 						Design: <a href="http://www.gettemplate.com" rel="designer">Initio by GetTemplate</a> -
                         Powered by: <a href="https://gohugo.io/" rel="poweredby">Hugo</a>

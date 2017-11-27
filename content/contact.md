@@ -1,5 +1,5 @@
 +++
-title = "ติดต่อ"
+title = "ติดต่อเรา"
 type = "contact"
-weight = 20 
+weight = 20
 +++

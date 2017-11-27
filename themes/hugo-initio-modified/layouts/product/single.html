@@ -5,9 +5,16 @@
 	<div class="container">
 		<h2 class="section-title"><span>{{ .Title }}</span></h2>
 		<br />
-		<p>
-			{{ .Site.Params.productDesc }}
-		</p>
+		<div class="row">
+			<div class="col-xs-4 col-sm-4 col-md-2 text-center">
+				<p>
+					<img alt="{{ .Site.Params.mogDesc }}" src="{{ .Site.BaseURL }}{{ .Site.Params.mogImage }}" />
+				</p>
+			</div>
+			<div class="col-xs-8 col-sm-8 col-md-10">
+				{{ .Site.Params.productDesc | safeHTML }}
+			</div>
+		</div>
 
 		<h3 id="stake-i">เสาเข็มไอ</h3><br />
 		<img src="{{ .Site.BaseURL }}images/MKC10_New.jpg" />
@@ -17,9 +24,9 @@
 		<img src="{{ .Site.BaseURL }}images/MKC11_New.jpg" />
 		<br />
 
-		<p>
+		<div class="text-size-9">
 			{{ .Content }}
-		</p>
+		</div>
 
 	</div>	<!-- /container -->
 
